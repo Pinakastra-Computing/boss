@@ -15,7 +15,7 @@ load_config() {
 }
 
 # Path to your JSON config file
-CONFIG_FILE="/home/pinaka/pinak/config.json"
+CONFIG_FILE="/home/pinaka/pinak/$IP_ADDRESS/config.json"
 
 # Load and execute the configuration as exports
 eval $(load_config "$CONFIG_FILE")
